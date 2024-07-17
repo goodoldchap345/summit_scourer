@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "summit_scourer")(type "KiCad")(uri "${KIPRJMOD} /../Libraries/summit_scourer.kicad_sym")(options "")(descr ""))
+)
