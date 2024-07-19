@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 29.21 43.942 0)
+			(at -0.254 25.654 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "SI4732-A10-GS"
-			(at 29.21 41.402 0)
+			(at -0.254 23.114 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "SOIC_A10-GS_SIL"
-			(at 30.48 -27.686 0)
+			(at 0.762 -23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "SI4732-A10-GS"
-			(at 30.48 -25.4 0)
+			(at 0.762 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 		)
 		(symbol "SI4732-A10-GS_0_1"
 			(pin unspecified line
-				(at 0 0 0)
+				(at 16.51 12.7 180)
 				(length 2.54)
 				(name "LOUT/DFS"
 					(effects
@@ -100,7 +100,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 -15.24 180)
+				(at 16.51 -1.27 180)
 				(length 2.54)
 				(name "SENB"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 -12.7 180)
+				(at 16.51 1.27 180)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 -10.16 180)
+				(at 16.51 3.81 180)
 				(length 2.54)
 				(name "SDIO"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 25.4 0)
+				(at -15.24 19.05 0)
 				(length 2.54)
 				(name "RCLK"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin power_in line
-				(at 53.34 25.4 180)
+				(at 16.51 19.05 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin power_out line
-				(at 53.34 16.51 180)
+				(at 16.51 -16.51 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 60.96 0 180)
+				(at 16.51 10.16 180)
 				(length 2.54)
 				(name "ROUT/DOUT"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 16.51 0)
+				(at -15.24 13.97 0)
 				(length 2.54)
 				(name "GPO3/DCLK"
 					(effects
@@ -244,7 +244,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 0)
+				(at 16.51 -8.89 180)
 				(length 2.54)
 				(name "GPO2/INTB"
 					(effects
@@ -262,7 +262,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -7.62 0)
+				(at 16.51 -11.43 180)
 				(length 2.54)
 				(name "GPO1"
 					(effects
@@ -280,8 +280,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -10.16 0)
-				(length 2.54)
+				(at 16.51 -13.97 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -298,7 +298,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -12.7 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "FMI"
 					(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -15.24 0)
+				(at -15.24 -16.51 0)
 				(length 2.54)
 				(name "RFGND"
 					(effects
@@ -334,7 +334,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -17.78 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "AMI"
 					(effects
@@ -353,8 +353,19 @@
 			)
 		)
 		(symbol "SI4732-A10-GS_1_1"
+			(rectangle
+				(start -12.7 21.59)
+				(end 13.97 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at 60.96 -17.78 180)
+				(at 16.51 -3.81 180)
 				(length 2.54)
 				(name "~{RST}"
 					(effects
@@ -364,6 +375,246 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_DPDT_x3"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x3"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW*DPDT*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_DPDT_x3_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_DPDT_x3_0_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.5748 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_DPDT_x3_1_1"
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_DPDT_x3_2_1"
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
