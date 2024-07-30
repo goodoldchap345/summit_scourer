@@ -1791,126 +1791,6 @@
 				)
 			)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND1"
 			(power)
 			(pin_numbers hide)
@@ -2063,12 +1943,6 @@
 		(uuid "820c4cb7-90b6-4091-981e-2f77d0be9eca")
 	)
 	(junction
-		(at 246.38 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93b52472-cf02-4a6a-aa16-f38d095092fc")
-	)
-	(junction
 		(at 213.36 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2097,12 +1971,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfd4fca9-869c-4276-be63-dbd6a04c9256")
-	)
-	(junction
-		(at 246.38 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3cd711c-e2d3-42c9-b8f9-97777438c770")
 	)
 	(junction
 		(at 153.67 130.81)
@@ -2242,16 +2110,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 111.76) (xy 246.38 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68263b22-976f-423d-a6ae-fc5b638c5b5b")
-	)
-	(wire
-		(pts
 			(xy 187.96 124.46) (xy 187.96 133.35)
 		)
 		(stroke
@@ -2272,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 121.92) (xy 246.38 123.19)
+			(xy 246.38 121.92) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2512,16 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 246.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35f794a-f810-49fb-ad6d-c79192bb4dce")
-	)
-	(wire
-		(pts
 			(xy 190.5 129.54) (xy 190.5 144.78)
 		)
 		(stroke
@@ -2582,16 +2430,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 254 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0b46a7-9228-414c-aa15-02324099b68e")
-	)
-	(wire
-		(pts
 			(xy 190.5 121.92) (xy 190.5 129.54)
 		)
 		(stroke
@@ -2612,7 +2450,7 @@
 	)
 	(hierarchical_label "TX_PA"
 		(shape input)
-		(at 254 123.19 0)
+		(at 254 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2853,7 +2691,7 @@
 			(uuid "ac34cae8-d9cb-4db9-b6ce-befd77019f81")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "U3")
 					(unit 1)
@@ -2993,75 +2831,9 @@
 			(uuid "38f66fb1-7b65-4beb-b594-ce4fd75a168a")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 246.38 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5094ce2e-9477-4d50-8ae6-c660252723f1")
-		(property "Reference" "#PWR023"
-			(at 246.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 246.38 107.6269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 246.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c6c1b53-e97c-4d23-8738-e2bc59bf945c")
-		)
-		(instances
-			(project "summit_scourer"
-				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3162,7 +2934,7 @@
 			(uuid "ac34cae8-d9cb-4db9-b6ce-befd77019f82")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "U3")
 					(unit 4)
@@ -3389,7 +3161,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 228.6 125.984 90)
 			(effects
 				(font
@@ -3599,7 +3371,7 @@
 			(uuid "ac34cae8-d9cb-4db9-b6ce-befd77019f83")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "U3")
 					(unit 2)
@@ -3683,7 +3455,7 @@
 		(fields_autoplaced yes)
 		(uuid "93fc8f5a-7d2b-4ff1-a077-71fcd6a780b5")
 		(property "Reference" "Q1"
-			(at 249.047 128.3278 0)
+			(at 250.19 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,8 +3463,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCA03N06-TP"
-			(at 249.047 130.7521 0)
+		(property "Value" "Q_NMOS"
+			(at 250.19 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3527,7 @@
 			(uuid "26e4fbc8-6f46-4e87-81f7-bbdcc36dc92a")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "Q1")
 					(unit 1)
@@ -3861,7 +3633,7 @@
 			(uuid "ac34cae8-d9cb-4db9-b6ce-befd77019f84")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "U3")
 					(unit 5)
@@ -4067,7 +3839,7 @@
 			(uuid "c7b86c6f-ee7a-4175-b291-8087ac76c49b")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "R1")
 					(unit 1)
@@ -4306,7 +4078,7 @@
 			(uuid "ac34cae8-d9cb-4db9-b6ce-befd77019f85")
 		)
 		(instances
-			(project "summit_scourer"
+			(project ""
 				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522/ca0b4637-7833-41cb-9c23-66bdf9156fd1"
 					(reference "U3")
 					(unit 3)
