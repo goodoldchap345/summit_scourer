@@ -1,4 +1,4 @@
-23753868993715763
+23753868993745076
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96674,5 +96674,5 @@ torroid_transformer
 L_Toroid, Vertical series, Radial, pin pitch=5.08mm, , length*width=10*5mm^2
 L_Toroid Vertical series Radial pin pitch 5.08mm  length 10mm width 5mm
 0
-2
-2
+4
+4
