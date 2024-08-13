@@ -2518,7 +2518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "summit_scourer:SW_GF-161-0005"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "summit_scourer:torroid_transformer"
 			(at 171.45 116.84 90)
 			(effects
 				(font
@@ -3086,7 +3086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "summit_scourer:SW_GF-161-0005"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -3577,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "summit_scourer:torroid_transformer"
 			(at 168.91 97.79 90)
 			(effects
 				(font
