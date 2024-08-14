@@ -961,6 +961,44 @@
 		)
 	)
 	(sheet
+		(at 64.516 21.844)
+		(size 40.894 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d0a60d9-2d86-4655-8a33-d513eb4f6fbd")
+		(property "Sheetname" "PSU"
+			(at 64.516 21.1324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 64.516 41.4786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "summit_scourer"
+				(path "/97fa5a9e-fea2-40ae-976c-23c41ffbf522"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 140.97 53.086)
 		(size 41.91 38.862)
 		(fields_autoplaced yes)

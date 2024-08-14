@@ -654,6 +654,10 @@
     [
       "81fae784-0a44-4eb8-b71c-82dc4dd62ff5",
       "channel_switching_and_filtering"
+    ],
+    [
+      "1d0a60d9-2d86-4655-8a33-d513eb4f6fbd",
+      "PSU"
     ]
   ],
   "text_variables": {}
