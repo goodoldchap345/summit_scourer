@@ -4864,7 +4864,7 @@
 	(footprint "summit_scourer:torroid_transformer"
 		(layer "F.Cu")
 		(uuid "160199d1-085a-4821-b060-99cc27ee30dd")
-		(at 233.565 55.74)
+		(at 233.565 55.8)
 		(descr "L_Toroid, Vertical series, Radial, pin pitch=5.08mm, , length*width=10*5mm^2")
 		(tags "L_Toroid Vertical series Radial pin pitch 5.08mm  length 10mm width 5mm")
 		(property "Reference" "T3"
@@ -29447,11 +29447,11 @@
 	(footprint "summit_scourer:torroid_transformer"
 		(layer "F.Cu")
 		(uuid "c981afa7-a223-41ac-a816-62268f5e1a5e")
-		(at 233.565 43.38)
+		(at 244.3 55.8)
 		(descr "L_Toroid, Vertical series, Radial, pin pitch=5.08mm, , length*width=10*5mm^2")
 		(tags "L_Toroid Vertical series Radial pin pitch 5.08mm  length 10mm width 5mm")
 		(property "Reference" "T1"
-			(at 0 -2.25 0)
+			(at 0 -2.25 360)
 			(layer "F.SilkS")
 			(uuid "e0b7d1e3-f31e-4148-8dee-73deae85f70a")
 			(effects
@@ -29462,7 +29462,7 @@
 			)
 		)
 		(property "Value" "T"
-			(at 0 7.33 0)
+			(at 0 7.33 360)
 			(layer "F.Fab")
 			(uuid "bff542b2-e878-4512-adfe-f8bd0ed3359e")
 			(effects
@@ -29796,7 +29796,7 @@
 			(uuid "f8d76d97-e5bb-488b-95bf-214f25cd8e17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 0)
+			(at 2.54 0 360)
 			(layer "F.Fab")
 			(uuid "86a4113e-2c7e-4f1b-b0c7-d56ef0a13858")
 			(effects
@@ -40543,6 +40543,30 @@
 		(uuid "a6f5764c-4f32-401f-92c6-8e4805ad8f2e")
 	)
 	(segment
+		(start 246.3 60.88)
+		(end 243.82 58.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "99c81e72-f66f-4857-83a3-f4c2e2ec330a")
+	)
+	(segment
+		(start 234.165 58.4)
+		(end 231.565 55.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "ce75a755-a60e-4a3c-9371-36d8183c88f5")
+	)
+	(segment
+		(start 243.82 58.4)
+		(end 234.165 58.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "f445b189-3d4f-4a9c-a08a-40c2b14b2bf7")
+	)
+	(segment
 		(start 102.5334 55.2)
 		(end 102.5334 53.333427)
 		(width 0.5)
@@ -40878,6 +40902,14 @@
 		(layer "B.Cu")
 		(net 60)
 		(uuid "fa20a7c2-5acc-4806-a207-d4772ecda75e")
+	)
+	(segment
+		(start 235.565 55.8)
+		(end 242.3 55.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "309e4e91-4566-4cf2-9c24-9eeff08e399a")
 	)
 	(segment
 		(start 70.58 43.98)
