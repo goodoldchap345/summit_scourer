@@ -181,7 +181,8 @@
         0.0,
         0.2,
         0.5,
-        0.8
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -652,12 +653,12 @@
       "TX"
     ],
     [
-      "81fae784-0a44-4eb8-b71c-82dc4dd62ff5",
-      "channel_switching_and_filtering"
-    ],
-    [
       "1d0a60d9-2d86-4655-8a33-d513eb4f6fbd",
       "PSU"
+    ],
+    [
+      "96e9386b-6b49-4ec0-abf4-e3a9dfeae7e6",
+      "SWR_bridge"
     ]
   ],
   "text_variables": {}
