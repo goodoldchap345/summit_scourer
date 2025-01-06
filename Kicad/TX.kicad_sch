@@ -3175,6 +3175,12 @@
 		(uuid "02775773-801e-4183-983b-57a3a0b04864")
 	)
 	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08e965e1-4a05-4c6c-bb9b-f68ce541b2cd")
+	)
+	(junction
 		(at 114.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3191,12 +3197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18461da4-5279-492b-9d97-5cc156223179")
-	)
-	(junction
-		(at 111.76 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b1ec8a7-dd87-4633-9cc3-ed76d802fc51")
 	)
 	(junction
 		(at 163.83 100.33)
@@ -3221,12 +3221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f7f8ac8-71d3-4c1a-9482-98a092373259")
-	)
-	(junction
-		(at 90.17 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f9e5cc2-c222-48eb-a894-fd864424c511")
 	)
 	(junction
 		(at 226.06 80.01)
@@ -3313,6 +3307,12 @@
 		(uuid "8bbb7f28-4100-4ab2-91da-508010d5f7f0")
 	)
 	(junction
+		(at 111.76 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "903d8fe8-5d2c-4ead-8364-3f6a709c1568")
+	)
+	(junction
 		(at 46.99 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3373,10 +3373,10 @@
 		(uuid "bf8b0f8a-4b97-44ee-8f4d-613266e590b5")
 	)
 	(junction
-		(at 92.71 123.19)
+		(at 92.71 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfd4fca9-869c-4276-be63-dbd6a04c9256")
+		(uuid "da425b66-7b54-4b38-8039-e6e5aaaacd99")
 	)
 	(junction
 		(at 153.67 100.33)
@@ -3425,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "030cce6c-2d6c-4880-9608-dd4e1a22ed70")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 111.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0409c648-5ad5-4977-8d39-e61dc4bf4dd3")
 	)
 	(wire
 		(pts
@@ -3858,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 116.84) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8012cf-6f59-45af-9c94-ac935885048f")
+	)
+	(wire
+		(pts
 			(xy 62.23 72.39) (xy 62.23 67.31)
 		)
 		(stroke
@@ -3928,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 109.22 120.65)
+			(xy 111.76 119.38) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4088,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 111.76 120.65)
+			(xy 111.76 107.95) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4155,16 +4175,6 @@
 			(type default)
 		)
 		(uuid "9a40628e-94a4-447a-bfb6-e4f65e9f3d9b")
-	)
-	(wire
-		(pts
-			(xy 92.71 123.19) (xy 92.71 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a63afbe-d489-4e0c-bb0b-d3c5fd3b42c7")
 	)
 	(wire
 		(pts
@@ -4238,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 93.98 123.19)
+			(xy 92.71 121.92) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4268,23 +4278,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 93.98 118.11)
+			(xy 90.17 116.84) (xy 93.98 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af916f16-2de3-48f8-be85-d20d14dc4891")
-	)
-	(wire
-		(pts
-			(xy 111.76 133.35) (xy 111.76 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39fa525-6f33-44a3-b40f-88d84614cbab")
 	)
 	(wire
 		(pts
@@ -4438,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 107.95) (xy 92.71 123.19)
+			(xy 92.71 107.95) (xy 92.71 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4478,13 +4478,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 90.17 130.81)
+			(xy 92.71 121.92) (xy 92.71 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df83cc77-1138-4bc2-a1ee-63f31e4a44c0")
+		(uuid "dd11857b-bb27-42d3-9a8d-2466f3beae54")
 	)
 	(wire
 		(pts
@@ -4568,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 90.17 118.11)
+			(xy 90.17 111.76) (xy 90.17 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5084,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 101.6 120.65 0)
+		(at 101.6 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5092,7 +5092,7 @@
 		(dnp no)
 		(uuid "09cb61e6-d1ed-4791-bba9-3196363dc651")
 		(property "Reference" "U3"
-			(at 101.346 120.65 0)
+			(at 101.346 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "Value" "74AC00"
-			(at 101.6 115.57 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5108,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 101.6 120.65 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 120.65 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 101.6 120.65 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
