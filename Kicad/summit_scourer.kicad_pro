@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.35,
         0.5,
         0.8,
         1.0
@@ -639,26 +640,6 @@
     [
       "97fa5a9e-fea2-40ae-976c-23c41ffbf522",
       "Root"
-    ],
-    [
-      "9c59661f-2506-4efd-9bc6-e2f1b812693d",
-      "MCU_and_UI"
-    ],
-    [
-      "80025feb-5619-4de4-bda2-2c6e3934e4ae",
-      "RX"
-    ],
-    [
-      "ca0b4637-7833-41cb-9c23-66bdf9156fd1",
-      "TX"
-    ],
-    [
-      "1d0a60d9-2d86-4655-8a33-d513eb4f6fbd",
-      "PSU"
-    ],
-    [
-      "96e9386b-6b49-4ec0-abf4-e3a9dfeae7e6",
-      "SWR_bridge"
     ]
   ],
   "text_variables": {}
