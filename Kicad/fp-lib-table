@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "summit_scourer")(type "KiCad")(uri "${KIPRJMOD} /../Libraries/summit_scourer.pretty")(options "")(descr ""))
+)
